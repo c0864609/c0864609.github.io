@@ -1,0 +1,195 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.header-background {
+    background-image: url("/img/company-banner.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 200px; 
+    text-align: center; 
+    color: #fff
+    ; 
+}
+nav {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.logo {
+    margin-right: auto;
+}
+.logo-img{
+    height: 7em;
+    width: 7em;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0 0 3em 0;
+    display: flex;
+
+}
+
+
+.nav-links li {
+    margin-left: 1.5em;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff9900; 
+}
+
+#welcome {
+    text-align: center;
+ 
+    padding: 20px;
+    background-color: #f0f0f0;
+
+
+}
+
+#welcome h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+#welcome p {
+    color: #666666;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#welcome img {
+    display: block;
+    margin: 0 auto;
+
+    border-radius: 10px;
+
+}
+footer {
+    text-align: center;
+    background-color: #a1a1a1;
+    color: #fff;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+/* Style for Product of the Week section */
+#product-of-the-week {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+#product-of-the-week h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+#product-of-the-week .product img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#product-of-the-week .product p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+/* Style for Weekly Sales section */
+#weekly-sales {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+#weekly-sales h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+}
+
+#weekly-sales .product {
+    margin: 10px;
+    text-align: left;
+    max-width: 45%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#weekly-sales .product img {
+    max-width: 100%;
+    height: auto;
+}
+
+#weekly-sales .product p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Style for Customer Guarantee section */
+#customer-guarantee {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+#customer-guarantee h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+.guarantee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#customer-guarantee .guarantee img {
+    max-width: 100px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#customer-guarantee .guarantee p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: bold;
+}
