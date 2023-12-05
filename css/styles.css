@@ -193,3 +193,46 @@ footer a:hover {
     line-height: 1.5;
     font-weight: bold;
 }
+
+/* Styles for About Us page */
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+    /* Styles for mobile viewport */
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for tablet viewport */
+}
+
+@media screen and (min-width: 1025px) {
+    /* Styles for desktop viewport */
+}
+
+/* Additional Styles for About Us page */
+#company-info, #our-story, #reasons-to-shop, #our-guarantee {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#company-info h2, #our-story h2, #reasons-to-shop h2, #our-guarantee h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+#company-info p, #our-story p, #reasons-to-shop ol, #our-guarantee p {
+    color: #666666;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#reasons-to-shop ol {
+    text-align: left;
+}
+
+/* Responsive Navigation Link Style */
+.nav-links a.active {
+    color: #ff9900;
+}
