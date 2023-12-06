@@ -1,0 +1,46 @@
+/* training.css */
+
+/* Add your styles specific to training.html here */
+
+#training-schedule {
+    text-align: center;
+    padding: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+caption {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Alternating row colors */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Highlight row on hover */
+tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+.product-image img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 1rem;
+}
