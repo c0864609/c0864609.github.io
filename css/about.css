@@ -1,0 +1,114 @@
+/* Styles for About Us page */
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+    /* Styles for mobile viewport */
+    /* body {
+        font-size: 16px;
+    } */
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for tablet viewport */
+}
+
+@media screen and (min-width: 1025px) {
+    /* Styles for desktop viewport */
+}
+
+/* Additional Styles for About Us page */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+}
+
+p {
+    color: #666666;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+ol {
+    text-align: left;
+}
+
+ol li {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Responsive Navigation Link Style */
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff9900;
+}
+
+/* Additional Styling for Sections */
+#company-info {
+    background: url('/img/about-company.jpg') center/cover no-repeat;
+    color: #fff;
+    padding: 60px 20px; /* Increased padding */
+    height: 500px; /* Increased height */
+    border-radius: 20px; /* Rounded borders */
+    margin: 8rem 3rem 10rem 3rem;
+}
+
+#company-info h2 {
+    font-size: 36px;
+}
+
+#company-info p {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+#company-info img {
+    display: none; /* Hide the image when using it as a background */
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.card {
+    margin: 1rem 2rem 1rem 2rem;
+    width: calc(50% - 20px); /* Adjust the width based on your preference */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 7rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#our-story{
+    background: url('/img/our-story.jpg') center/cover no-repeat;
+}
+
+#reasons-to-shop{
+    background: url('/img/reasons-to-shop.jpg') center/cover no-repeat;
+}
+
+#our-guarantee{
+    margin: 1rem 2rem 1rem 2rem;
+    padding: 7rem;
+}
+
