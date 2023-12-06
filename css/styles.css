@@ -22,6 +22,15 @@ html, body {
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.all-container{
+    background: url('/img//backgorund.jpg') center/cover no-repeat;
+
+}
 .header-background {
     background-image: url("/img/company-banner.jpg");
     background-size: cover;
@@ -71,38 +80,62 @@ nav {
     color: #ff9900; 
 }
 
+/* Add your styles specific to the welcome section here */
+
 #welcome {
+    padding: 4rem 2rem; /* Adjust the padding as needed */
     text-align: center;
- 
-    padding: 20px;
-    background-color: #f0f0f0;
-
-
 }
 
 #welcome h2 {
-    color: #333;
-    font-size: 24px;
+    color: #333; /* Heading color */
+    font-size: 2.5rem; /* Heading font size */
+    margin-bottom: 1.5rem; /* Bottom margin for the heading */
 }
 
 #welcome p {
-    color: #666666;
-    font-size: 18px;
-    line-height: 1.5;
+    color: #555; /* Paragraph text color */
+    font-size: 18px; /* Paragraph font size */
+    line-height: 1.6; /* Line height for better readability */
+    margin-bottom: 1.5rem; /* Bottom margin for paragraphs */
 }
 
-#welcome img {
-    display: block;
-    margin: 0 auto;
+#welcome ul {
+    list-style-type: none; /* Remove list bullets */
+    padding: 0;
+}
 
-    border-radius: 10px;
+#welcome li {
+    color: #555; /* List item text color */
+    font-size: 16px; /* List item font size */
+    margin-bottom: 1rem; /* Bottom margin for list items */
+}
 
+#welcome li strong {
+    color: #333; /* Strong (bold) text color */
+}
+
+/* Optional: Add a border to the list items for better separation */
+#welcome li {
+    border-bottom: 1px solid #ccc; /* Border color */
+    padding-bottom: 0.5rem; /* Adjust padding as needed */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+}
+
+main {
+    flex: 1; /* Allow main content to grow and fill available space */
 }
 footer {
     text-align: center;
     background-color: #a1a1a1;
     color: #fff;
     padding: 10px 0;
+    margin-top: auto;
 }
 
 footer p {
