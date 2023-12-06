@@ -1,0 +1,24 @@
+/* media.css */
+
+#media-content {
+    text-align: center;
+    padding: 50px 0;
+}
+
+h2 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
